@@ -1,6 +1,7 @@
 from random import randint
 from graphic_arts.start_game_banner import run_screensaver
 
+
 def attack(char_name: str, char_class: str) -> str:
     """
     Нанесение урона противнику в зависимости от выбранного класса.
@@ -100,6 +101,8 @@ def choice_char_class() -> str:
 
 def main():
     """Приветствие игрока."""
+
+
 if __name__ == '__main__':
     run_screensaver()
     print('Приветствую тебя, искатель приключений!')
